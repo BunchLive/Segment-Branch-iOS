@@ -24,5 +24,4 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/**/*'
 
   s.dependency 'Analytics'
-  s.dependency 'Branch'
 end
