@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/**/*'
 
   s.dependency 'Analytics'
-  s.dependency = 'Branch-SDK', path: "../node_modules/react-native-branch/ios"
+  s.dependency 'Branch-SDK'
 
 end
